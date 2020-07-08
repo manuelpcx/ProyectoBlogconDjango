@@ -23,7 +23,7 @@ body{
     border-radius: 2px;
 }
 
-.message{
+.message .alert{
     color: white;
     background: #2ba977;
     text-align: center;
@@ -31,6 +31,13 @@ body{
     padding: 10px;
 }
 
+.alert-success{
+    background-color: #1f7e58;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+}
 .box ul, .box ol{
     margin-left: 10px;
     margin-bottom: 5px;
@@ -53,6 +60,8 @@ body{
 }
 
 .box form input[type="text"],
+.box form input[type="email"],
+.box form input[type="password"],
 .box form textarea,
 .box form select{
     width: 100%;
@@ -237,12 +246,28 @@ nav > ul > li:hover > ul > li:hover > a{
     margin: 0 auto;
 }
 
+.box .image{
+    float: left;
+    margin-right: 20px;
+    width: 400px;
+    height: 400px;
+}
+
 .title{
     color: #444;
     letter-spacing: 1px;
     font-size: 30px;
     margin-bottom: 10px;
     margin-top: 5px;
+}
+
+.title a{
+    color: #444;
+    transition: 300ms all;
+}
+
+.title a:hover{
+    color: #1f7e58;
 }
 
 .date{
