@@ -1,1 +1,3 @@
-web: gunicorn ProyectoBlogconDjango.wsgi --log-file -
+web: gunicorn ProyectoBlogconDjango.wsgi:application --log-file - --log-level debug
+python manage.py collectstatic --noinput
+manage.py migrate
