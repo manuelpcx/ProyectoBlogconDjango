@@ -5,7 +5,6 @@ Django==3.0.8
 django-ckeditor==5.9.0
 django-js-asset==1.2.2
 django-mysql==3.7.1
-django-postgres-createdb==0.0.0
 gunicorn==20.0.4
 isort==4.3.21
 jedi==0.17.1
